@@ -47,8 +47,8 @@ ax2.grid(color=pic2.get_color(),linestyle='--')
 ax1.yaxis.grid(False)
 # ax2.yaxis.grid(False)
 # ax1.xaxis.grid(False)
+ax1.set_title('图')
 
-
-plt.title('这是一幅图啦')
+# plt.title('这是一幅图啦')
 
 plt.show()
