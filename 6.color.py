@@ -6,12 +6,12 @@ import matplotlib as mpl
 mpl.style.use('seaborn')
 # print(mpl.style.available)
 #设置x,y
-x=np.linspace(-2.0*np.pi,2.0*np.pi,201)
-y=np.sin(x)
+x = np.linspace(-2.0 * np.pi, 2.0 * np.pi, 201)
+y = np.sin(x)
 
 #设置轴线
-plt.axhline(y=0,color='b',alpha=0.5)
-plt.axvline(x=0,color='b',alpha=0.5)
+plt.axhline(y=0, color='b', alpha=0.5)
+plt.axvline(x=0, color='b', alpha=0.5)
 
 # plt.plot(x,y,color='g',label='sin')
 # plt.plot(x,y,color=(0.1,0.2,0.5),label='sin')#rgb
@@ -24,14 +24,8 @@ plt.axvline(x=0,color='b',alpha=0.5)
 # plt.plot(x,y,color=mcd.CSS4_COLORS['chocolate'],label='sin')
 # plt.plot(x,y,color='chocolate',label='sin')
 # plt.plot(x,y,color='xkcd:navy blue',label='sin')
-plt.plot(x,y,color='C1',label='sin')
-
-
-
-
-
+plt.plot(x, y, color='C1', label='sin')
 
 plt.grid()
 plt.legend()
 plt.show()
-
