@@ -15,7 +15,7 @@ print(bins.shape)
 print('counts:',counts)
 print(counts.shape)
 
-plt.plot(bins[1:],counts,label='series',color='C2')#bins比counts多一个，所以[1:]
+plt.plot(bins[1:] ,counts,label='series',color='C2')#bins比counts多一个，所以[1:]
 plt.xlabel('IQ')
 plt.ylabel('Count')
 plt.xticks(bins)
