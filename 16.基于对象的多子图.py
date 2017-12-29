@@ -52,7 +52,7 @@ ax4.tick_params(axis='x',colors='k')
 ax4.tick_params(axis='y',colors='k')
 ax4.legend()
 
-plt.tight_layout()
+plt.tight_layout()#自动调整各图的间距
 plt.subplots_adjust(top=0.92)
 fig.suptitle('多子图',fontsize=18)
 plt.savefig('matplotlib/result/16.png',format='png',dpi=200)
