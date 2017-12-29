@@ -47,7 +47,16 @@
 * 一个子图
 ![](./result/15.1.png)
 
+* 子图中值显示不完全，可以采用
+```python
+mpl.style.use('classic')
+```
+来解决
+
 * 三个多图
 ![](./result/15.2.png)
 ![](./result/15.3.png)
 ![](./result/15.4.png)
+
+## 16.基于对象多子图
+![](./result/16.png)
