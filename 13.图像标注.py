@@ -25,7 +25,7 @@ plt.annotate(
     s='sin的局部最大值',
     xy=(0.5 * np.pi, np.sin(0.5 * np.pi)),
     xytext=(0.5*np.pi,0.6),
-    arrowprops=dict(facecolor='black',shrink=1.0)
+    arrowprops=dict(facecolor='black',shrink=1.0,width=2,headwidth=10)
 )
 
 plt.annotate(
