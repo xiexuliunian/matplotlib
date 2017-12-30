@@ -63,3 +63,6 @@ mpl.style.use('classic')
 
 ## 17.子图网格
 ![](./result/17.png)
+
+## 17.图像
+![](./result/18.png)
