@@ -60,3 +60,6 @@ mpl.style.use('classic')
 
 ## 16.基于对象多子图
 ![](./result/16.png)
+
+## 17.子图网格
+![](./result/17.png)
